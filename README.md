@@ -84,7 +84,7 @@ function.
 {# Combining view helpers #}
 {% set url = ( url('my/custom/route') ) %}
 
-{# Usage of layout helper to dynamicly load templates #}
+{# Usage of layout helper to dynamically load templates #}
 {# defined in view_manager.template_map in the config. #}
 {% extends layout().getTemplate()  %}
 ```
